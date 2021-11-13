@@ -1,0 +1,48 @@
+body {
+  color: #414141; /* Red color #FF0000 */
+  /*GREY color #4141414*/
+  background-color: #eeeeee;
+  font-size: 18px;
+}
+h1
+{
+  font-size: 2em;  /*Size is twice of the earlier size of the pixel */
+
+
+
+ /*font-family: "Helvetica", "Arial", sans-serif;*/
+}
+h2{
+  font-size: 1.6em; /*Size is 1.6 of the earlier size not the 2em size but the default size mentioned.*/
+
+
+  /* font-family: "Helvetica", "Arial", sans-serif;*/
+}
+/*Insted of using the properties for each elemt we can use multiple element at same time...*/
+
+h1,h2
+{
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+a {
+  text-decoration: line-through;
+}
+/*These properties clearly demonstrate the separation of content (HTML) from presentation (CSS). The following rules swap the appearance of the <em> and <strong> elements:
+
+ (You probably shouldn't do this) 
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+  font-style: italic;
+}*/
